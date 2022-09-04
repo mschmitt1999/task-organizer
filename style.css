@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin:0;
+    line-height:1.5em;
+}
+
+.content{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    gap:50px;
+}
+
+.containerButtons{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+button{
+    background-color: hwb(167 56% 20%);
+    border: none;
+    border-radius:25px;
+    color:rgb(0, 82, 64);
+    padding:10px;
+    
+}
+button:hover{
+    color:black;
+}
+.planName{
+    margin:20px;
+    font-size:1,5em;
+}
+
+.header{
+    padding:20px;
+    background-color: hwb(167 56% 20%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+
+.plans{
+    margin:0;
+    display:flex;
+    flex-direction:row;
+    gap: 10px;
+}
+
+.container{
+    margin:20px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.card{
+    width:250px;
+    background-color: hwb(167 56% 20%);
+    border-radius:25px;
+    padding:15px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.taskParent{
+    position: relative;
+    background-color: rgb(0, 82, 64);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:25px;
+}
+
+.imgTask{
+    
+    height:200px;
+    width:200px;
+    
+    background-color: rgb(255, 255, 255);
+
+}
+.task{
+    position: absolute;
+    bottom: 30px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+.leftSide{
+    max-width: 200px;
+}

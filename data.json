@@ -1,0 +1,12 @@
+profiles='{\
+        "majid":\
+        {"WG":{"akteure": ["Magdalena","Büsra","Ala-uddin"], "aufgaben":["Wohnzimmer","Badezimmer","Kueche","Flur"], "haeufigkeit":7},\
+        "eigenes Zimmer":{"akteure":["Magdalena","Ala-Uddin"], "aufgaben":["Wäsche machen & Boden","Oberflächen"],"haeufigkeit":7},\
+        "Selfcare":{"akteure":["Ala-Uddin"], "aufgaben":["Meditieren","Trainieren","Journal"],"haeufigkeit":7}\
+        },\
+        "magdalena":{"WG":{"akteure":["Magdalena","Büsra","Ala-uddin"],"aufgaben":["Wohnzimmer","Badezimmer","Kueche","Flur"],"haeufigkeit":7},"eigenes Zimmer":{"akteure":["Magdalena","Ala-Uddin"],"aufgaben":["Wäsche machen & Boden","Oberflächen"],"haeufigkeit":7}},\
+        "busra":\
+        {"WG":{"akteure": ["Magdalena","Büsra","Ala-uddin"], "aufgaben":["Wohnzimmer","Badezimmer","Kueche","Flur"], "haeufigkeit":7},\
+        "eigenes Zimmer":{"akteure":["Büsra"], "aufgaben":["Staub wischen","Fegen"],"haeufigkeit":7}\
+        }\
+        }';
